@@ -1,11 +1,11 @@
 # front-end-study-guide
 
 ## Table of Contents 
-* [React](#React)
+* [react](#react)
 * [features_of_react](#features_of_react)
-* [TypeScript](#TypeScript)
+* [typescript](#typescript)
 
-## React
+## react
 
 What is react -
 * Front-end JavaScript libaray developed by Facebook
@@ -33,7 +33,7 @@ High performance -
   
   
   
-## TypeScript
+## typescript
 
 What is tyepscript - 
 * Programming language that is a superset of JavaScript that comples to plain JavaScript
