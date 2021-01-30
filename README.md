@@ -179,13 +179,13 @@ JSX -
     
 Components - 
 * Building blocks of react applications
-* Independent and reusalbe parts of code that can be process separately
+* Independent and reusable parts of code that can be process separately
     
 Virtual DOM - 
  * React creates a virtual DOM 
  * Virtual DOM is abstraction of the HTML DOM
  * React creates a simplified copy of the HTML DOM
- * No large difference between regualr DOM and virtual DOM
+ * No large difference between regular DOM and virtual DOM
     * This is why JSX looks almost like pure HTML
     
 One-way-data-binding - 
