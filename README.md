@@ -6,7 +6,7 @@
 * [TypeScript](#TypeScript)
 * [Features_of_TypeScript](#Features_of_TypeScript)
 * [React](#react)
-* [Reatures_of_React](#Features_of_React)
+* [Features_of_React](#Features_of_React)
 * [big0_notation](#big0_notation)
 
 
