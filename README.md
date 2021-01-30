@@ -19,7 +19,7 @@ What is JavaScript -
 * Uses object oriented programming language (OOP)
 
 What are JavaScript data types?
-* JavaScript has typed values, not type variables
+* JavaScript has typed values, not typed variables, the following built in types are available:
 * Number
 * String
 * Boolean (true/false)
