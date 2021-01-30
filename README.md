@@ -1,19 +1,17 @@
 # front-end-study-guide
 
 ## Table of Contents 
-* [javascript](#javascript)
-* [typescript](#typescript)
-* [react](#react)
-* [features_of_react](#features_of_react)
+* [JavaScript](#JavaScript)
+* [Features_of_JavaScript](#Features_of_JavaScript)
+* [TypeScript](#TypeScript)
+* [Features_of_TypeScript](#Features_of_TypeScript)
+* [React](#react)
+* [Reatures_of_React](#Features_of_React)
+* [big0_notation](#big0_notation)
 
 
-
-
-
-
-
-## javascript
-
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+## JavaScript
 
 What is JavaScript - 
 * JavaScript is a client-side and server-side scripting language
@@ -25,35 +23,80 @@ What are JavaScript data types?
 * Number
 * String
 * Boolean (true/false)
-* Undefined & Null
+* Undefined (has not been initialized)
+* Null (something is currently unavailable)
 * Object (containers for named values called properties or methods)
 * Symbols (identifier for object property)
 
-JavaScript algorithms -
+JavaScript Algorithms -
 * Functions that transforms certain input data structure into certain output data structure 
 
 JavaScript Operators - 
 * Assignment operator (=) assigns a value to a variable
-* Addition (+), Subtraction (-), Multiplication (*)
+* Addition (+), Subtraction (-), Multiplication (*), Division (/)
+
+JavaScript Loops - 
+* Execute a block fo code a number of times
+* for (statement 1 ; statement 2; statement 3) {
+    //code block goes here
+    //statement 1 = executed one time before execution of code block
+    //statement 2 = defines conditions 
+    //statement 3 = executed every time after the the code block has been executed 
+}
+* Help with writing redundant code 
+
+JavaScript Arrays - 
+* An object that holds values (of any type) 
+* Used to store multiple values in one single variable
+* Arrays use numbers to access the element in a given array
+* You can have objects in arrays, functions in arrays, and arrays in arrays
+
+JavaScript Objects - 
+* Objects are variables that contain many values
+* var car = {type: 'ford', model: 'f150', color: 'blue'};
+* JavaScript objects are containers for named values called properties or methods 
+
+JavaScript Best Practices - 
+* Avoid global variables, can be overwritten (use local variables instead)
+* Proper indentation and commenting when appropriate 
+* Be aware of automatic type conversion
+* Use === Comparison
+    * The == always converts (to matching types) before comparison (abstract equality operator)
+    * The === operator forces comparison of values and types (strict equality operator)
+    
+What is "typeof" operator - 
+* JavaScript provides a typeof operator that can examine a value and tell you what type it is
+
+What is Scope in JavaScript - 
+* Each function has its own scope
+* Only code inside that function can access that functions scoped variables
 
 
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+## Features_of_JavaScript
+
+* Lightweight scripting language
+* Dynamic typing
+* Object-oriented programming language (OOP)
+* Functional style
 
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+## TypeScript
 
-
-## typescript
-
-What is tyepscript - 
-* Programming language that is a superset of JavaScript that comples to plain JavaScript
+What is TyepScript - 
+* Programming language that is a superset of JavaScript that compiles to plain JavaScript
 * TypeScript helps developers catch common errors through a type system and make JavaScript development more efficient
 * Uses class-based object-oriented programming 
 
-Features of TypeScript - 
-* Ojbect-oriented language
-* JavaScript is TypeScript
-* DOM Manipulation
-* TypeScript is just JavaScript
+Do we need to compile TypeScript files and why - 
+* Yes, TypeScript is a language extension browsers cant understand
+* Converting from TypeScript to JavaScript is called compiling 
+
+What is an interface - 
+* Interface is used for type-checking purposes
+* Defining an interface means any object must be an object containing interface properties
 
 Built in data types - 
 * Number
@@ -71,34 +114,86 @@ TypeScript object oriented supported terms -
 * Data Types
 
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+## Features_of_TypeScript 
+* Object-oriented language
+* JavaScript is TypeScript
+* DOM Manipulation
+* TypeScript is just JavaScript
 
 
-
-## react
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+## React
 
 What is react -
-* Front-end JavaScript libaray developed by Facebook
-* Component based which helps build resuable UI components 
+* Front-end JavaScript library used for building component based user interfaces 
+* Components allow for reusable code
+* Created by developers at Facebook 
 
+How does react work - 
+* React works by creating a virtual DOM
+* When state changes in a component, react identifies what has changed in the virtual DOM, next react updates the DOM with the changes 
 
-## features_of_react 
+What is virtual DOM - 
+* Memory representation of the real DOM
+* Step that happens between the render function being called and the displaying of elements on the screen
+* Entire process is called reconciliation
+
+What are props in React - 
+* Props are inputs to a react component
+* Props contain data that is passed from a parent component to a child component
+
+Advantages of using React - 
+* Increased performance with virtual DOM
+* JSX makes code easy to read and write
+* Renders on both client and server side
+* Easy to integrate with other frameworks
+
+React Comments - 
+*  {/* single-line comments */}
+
+React Inline Styles - 
+* <div style={{ height: 10 }}>
+    
+Class Component vs. Functional Component - 
+* Class components allow you to use local state and lifecycle hooks
+* Functional components are stateless components 
+
+Where in react component should you make a axios request - 
+* 'componentDidMount' is where axios requests should be made
+* This is executed when the component "mounts" or is added to the DOM for the first time
+
+State - 
+* State is a data structure that starts 
+
+State Hooks - 
+* Allow you to use state without a class component 
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+## Features_of_React 
 
 JSX - 
-* Syntax extension of JavaScript. 
-* Used with react to describe what the user interface (UI) should look like. 
-* Allows us to write HTML in files that contain JavaScript code. 
+* Syntax extension of JavaScript 
+* Used with react to describe what the user interface (UI) should look like 
+* Allows us to write HTML in files that contain JavaScript code 
     
 Components - 
-* Building blocks of react applications. Independent and reusalbe parts of code that can be process separately. Applications normally contain many different components. 
+* Building blocks of react applications
+* Independent and reusalbe parts of code that can be process separately
     
 Virtual DOM - 
-  * 
+ * React creates a virtual DOM 
+ * Virtual DOM is abstraction of the HTML DOM
+ * React creates a simplified copy of the HTML DOM
+ * No large difference between regualr DOM and virtual DOM
+    * This is why JSX looks almost like pure HTML
     
 One-way-data-binding - 
-* 
+* Follows unidirectional data flow or data binding
     
 High performance - 
-* React updates components that have changed, as opposed to updating all components. This makes for faster and efficient web applications. 
+* React updates components that have changed, as opposed to updating all components. This makes for faster and efficient web applications
+
   
   
  
