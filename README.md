@@ -77,8 +77,10 @@ What is "typeof" operator -
 * JavaScript provides a typeof operator that can examine a value and tell you what type it is
 
 What is Scope in JavaScript - 
+* Scope determines the accessibility of variables
 * Each function has its own scope
 * Only code inside that function can access that functions scoped variables
+* Two types of scope in JavaScript, local scope and global scope 
 
 
 ## Features_of_JavaScript
