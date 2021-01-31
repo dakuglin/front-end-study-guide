@@ -44,6 +44,13 @@ JavaScript Loops -
 }
 * Help with writing redundant code 
 
+JavaScript if Statement - 
+    * Use the if statement to specify a block of JavaScript code to be exectued if a condition is true
+    * if (condition) {
+  //  block of code to be executed if the condition is true
+}
+    * Use the else statement to specify if a block of code to be exectued if the condition is false
+
 JavaScript Arrays - 
 * An object that holds values (of any type) 
 * Used to store multiple values in one single variable
@@ -58,7 +65,10 @@ JavaScript Objects -
 JavaScript Best Practices - 
 * Avoid global variables, can be overwritten (use local variables instead)
 * Proper indentation and commenting when appropriate 
-* Be aware of automatic type conversion
+* Be aware of JavaScript type conversion 
+    * JavaScript variables can be converted to a new variable and another data type
+    * By the use of a JavaScript function
+    * Automatically by JavaScript itself
 * Use === Comparison
     * The == always converts (to matching types) before comparison (abstract equality operator)
     * The === operator forces comparison of values and types (strict equality operator)
