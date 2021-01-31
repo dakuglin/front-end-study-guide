@@ -173,9 +173,14 @@ Where in react component should you make a axios request -
 
 State - 
 * State is a data structure that starts 
+* Desribing the current values of a mutable object (mutabe can be changed)
+* For example a shopping cart, for any given time it can have a different amount in it 
 
 State Hooks - 
 * Allow you to use state without a class component 
+
+Redux - 
+* Redux is another way to manage state
 
 
 ## Features_of_React 
