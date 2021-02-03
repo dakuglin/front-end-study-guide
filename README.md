@@ -8,6 +8,8 @@
 * [React](#react)
 * [Features_of_React](#Features_of_React)
 * [big0_notation](#big0_notation)
+* [Golang](#Golang)
+* [Features_of_Golang](#Features_of_Golang)
 
 
 ## JavaScript
@@ -206,6 +208,24 @@ One-way-data-binding -
     
 High performance - 
 * React updates components that have changed, as opposed to updating all components. This makes for faster and efficient web applications
+
+
+## Golang
+
+What is Golang (Go) - 
+* Strong and statically typed programming language
+* Used for programming across large-scale network servers 
+
+
+## Features_of_Golang
+
+* Go is simplistic
+* Fast compile times
+* Garbage collected language
+    * Automatic memory management 
+    * Means developer does not need to perform manual memory management
+* Built-in concurrency 
+* Compiles to a standalone library/binaries 
 
   
   
