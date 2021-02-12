@@ -1,8 +1,9 @@
-# front-end-study-guide
+# study-guide
 
 ## Table of Contents 
 * [JavaScript](#JavaScript)
 * [Features_of_JavaScript](#Features_of_JavaScript)
+* [Strings_StringMethods](#Strings_StringMethods)
 * [TypeScript](#TypeScript)
 * [Features_of_TypeScript](#Features_of_TypeScript)
 * [React](#react)
@@ -10,6 +11,7 @@
 * [big0_notation](#big0_notation)
 * [Golang](#Golang)
 * [Features_of_Golang](#Features_of_Golang)
+
 
 
 ## JavaScript
@@ -91,6 +93,28 @@ What is Scope in JavaScript -
 * Dynamic typing
 * Object-oriented programming language (OOP)
 * Functional style
+
+## Strings_StringMethods
+
+Strings are useful for holding data represented in text form
+Used for storing and minipulating text
+String methods & properties help you work with strings
+
+Length - 
+* length method returns the length of a string
+* var name = "Dana"
+* var solution = name.length = 4
+
+Finding a string in a string - 
+* indexOf()
+* var string = "Hello, nice to meet you"
+* var position = string.indexOf("nice") = 7
+
+Split - 
+* Splits a string into an array of substrings
+* var string = "abcdcba"
+* var str = string.split('') =  ['a', 'b', 'c', 'd', 'c', 'b', 'a']
+
 
 
 ## TypeScript
