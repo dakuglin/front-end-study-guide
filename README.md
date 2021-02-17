@@ -250,7 +250,7 @@ What is Golang (Go) -
     * Means developer does not need to perform manual memory management
 * Built-in concurrency 
 * Compiles to a standalone library/binaries 
-
+*
 
 
   
