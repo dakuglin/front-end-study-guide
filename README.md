@@ -5,6 +5,8 @@
 * [JavaScript_Algorithms_DataStructures](#JavaScript_Algorithms_DataStructures)
 * [Features_of_JavaScript](#Features_of_JavaScript)
 * [Strings_StringMethods](#Strings_StringMethods)
+* [Arrays](#Arrays)
+* [Functions](#Functions)
 * [TypeScript](#TypeScript)
 * [Features_of_TypeScript](#Features_of_TypeScript)
 * [React](#react)
@@ -124,6 +126,7 @@ Compound Assignment -
 Strings are useful for holding data represented in text form
 Used for storing and minipulating text
 String methods & properties help you work with strings
+String values are immutable, and cannot e altered once created
 
 Length - 
 * length method returns the length of a string
@@ -140,7 +143,21 @@ Split -
 * var string = "abcdcba"
 * var str = string.split('') =  ['a', 'b', 'c', 'd', 'c', 'b', 'a']
 
+## Arrays 
+Can nest arrays within arrays (nulit-dimensional array)
 
+Access array data with indexes -
+* Bracket notation that specifies a entry in the array
+
+Manipulate Array Data - 
+* Easy way to append datat to the end of an array via .push()
+    * Takes one or more parameters and pushes them ont the end of an array
+* .pop() is used to pop a value off the end of an array, removes the last element and returns that element
+* .shift() removes the first element in an array
+* .unshift() works like .push but adds element at beginning of the array
+
+## Functions 
+Function parameters are values that are input or passed into a function when it is called known as arguments
 
 ## TypeScript
 
