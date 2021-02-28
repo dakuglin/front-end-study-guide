@@ -88,6 +88,11 @@ What is Scope in JavaScript -
 * Only code inside that function can access that functions scoped variables
 * Two types of scope in JavaScript, local scope and global scope 
 
+Variables - 
+* Allow computers to store and manipulate data in a dynamic fashion
+* All 8 data types can be stored in variables
+* Varuables can store different values at different times
+
 
 ## Features_of_JavaScript
 
