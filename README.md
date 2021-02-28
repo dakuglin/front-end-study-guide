@@ -101,8 +101,15 @@ JavaScript Operators -
 * Can initalize a variable to an initial value in the same line as it is declared (var myVar = 0)
 * Addition (+), Subtraction (-), Multiplication (*), Division (/)
 * Easily increment or add one to a variable with ++ operator (i++ equals i = i + 1) and eliminates need for equal sign assignment orperator
+* Easily decrement or subtract one with -- operator (i-- equals i = i - 1) and eliminates the need for equal sign
+* Reaminder operator (%) gives the remainder of the divisio of two numbers
+    * Number is checked to be even or odd by seeing the remainder of the division of the nuber by 2
+    * 17 % 2 = 1 (17 is odd)
+    * 48 % 2 = (48 is even)
 
-
+Compound Assignment - 
+* Mathematical operation and assignment in one step ( += , -= , *= , /= )
+* var myVar = 1;       myVar += 5;      returns 6
 
 
 ## Features_of_JavaScript
