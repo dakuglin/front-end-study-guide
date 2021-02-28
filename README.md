@@ -22,6 +22,7 @@ What is JavaScript -
 * Uses object oriented programming language (OOP)
 
 What are JavaScript data types?
+* 8 total data types in JavaScript
 * JavaScript has typed values, not typed variables, the following built in types are available:
 * Number
 * String
@@ -29,7 +30,8 @@ What are JavaScript data types?
 * Undefined (has not been initialized)
 * Null (something is currently unavailable)
 * Object (containers for named values called properties or methods)
-* Symbols (identifier for object property)
+* Symbol (identifier for object property)
+* Bigint 
 
 JavaScript Algorithms -
 * Functions that transforms certain input data structure into certain output data structure 
