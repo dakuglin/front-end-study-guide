@@ -2,6 +2,7 @@
 
 ## Table of Contents 
 * [JavaScript](#JavaScript)
+* [JavaScript_Algorithms_DataStructures](#JavaScript_Algorithms_DataStructures)
 * [Features_of_JavaScript](#Features_of_JavaScript)
 * [Strings_StringMethods](#Strings_StringMethods)
 * [TypeScript](#TypeScript)
@@ -32,13 +33,6 @@ What are JavaScript data types?
 * Object (containers for named values called properties or methods)
 * Symbol (identifier for object property)
 * Bigint 
-
-JavaScript Algorithms -
-* Functions that transforms certain input data structure into certain output data structure 
-
-JavaScript Operators - 
-* Assignment operator (=) assigns a value to a variable
-* Addition (+), Subtraction (-), Multiplication (*), Division (/)
 
 JavaScript Loops - 
 * Execute a block fo code a number of times
@@ -88,10 +82,27 @@ What is Scope in JavaScript -
 * Only code inside that function can access that functions scoped variables
 * Two types of scope in JavaScript, local scope and global scope 
 
+## JavaScript_Algorithms_DataStructures
+
+JavaScript Algorithms -
+* Functions that transforms certain input data structure into certain output data structure 
+
 Variables - 
 * Allow computers to store and manipulate data in a dynamic fashion
 * All 8 data types can be stored in variables
 * Varuables can store different values at different times
+* When JavaScript variables are declared, they have an initial value of undefined
+
+Number - 
+* Number is a data type in JavaScript that represents numeric data
+
+JavaScript Operators - 
+* Assignment operator (=) assigns a value to a variable and allows you to store a value
+* Can initalize a variable to an initial value in the same line as it is declared (var myVar = 0)
+* Addition (+), Subtraction (-), Multiplication (*), Division (/)
+* Easily increment or add one to a variable with ++ operator (i++ equals i = i + 1) and eliminates need for equal sign assignment orperator
+
+
 
 
 ## Features_of_JavaScript
