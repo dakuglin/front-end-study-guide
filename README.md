@@ -113,6 +113,16 @@ Compound Assignment -
 * Mathematical operation and assignment in one step ( += , -= , *= , /= )
 * var myVar = 1;       myVar += 5;      returns 6
 
+Global Scope & Functions - 
+* Scope refers to visibility of variables
+* Variables defined outside of a function block have global scope
+    * Can be seen everywhere in JS code
+
+Local Scope & Functions - 
+* Variables declared within a function as well a function parameters have local scope
+    * Only visible within given function
+
+
 
 ## Features_of_JavaScript
 
