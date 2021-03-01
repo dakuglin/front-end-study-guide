@@ -203,9 +203,12 @@ If Statements -
 * Used to make decisions in code
 * When condition evaluates to true, program executes statement inside curly bracket
 * When boolean condition is evaluates to false the statement inside the curly bracket evaluates to false
+* 
 if (condition is true) {
   statement is executed
 }
+
+* With an else statement an alternate block of code can be exectued
 
 
 ## TypeScript
