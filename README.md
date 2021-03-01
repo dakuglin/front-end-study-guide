@@ -7,6 +7,7 @@
 * [Strings_StringMethods](#Strings_StringMethods)
 * [Arrays](#Arrays)
 * [Functions](#Functions)
+* [Conditional_Logic](#Conditional_Logic)
 * [TypeScript](#TypeScript)
 * [Features_of_TypeScript](#Features_of_TypeScript)
 * [React](#react)
@@ -37,7 +38,7 @@ What are JavaScript data types?
 * Bigint 
 
 JavaScript Loops - 
-* Execute a block fo code a number of times
+* Execute a block for code a number of times
 * for (statement 1 ; statement 2; statement 3) {
     //code block goes here
     //statement 1 = executed one time before execution of code block
@@ -47,11 +48,11 @@ JavaScript Loops -
 * Help with writing redundant code 
 
 JavaScript if Statement - 
-    * Use the if statement to specify a block of JavaScript code to be exectued if a condition is true
+    * Use the if statement to specify a block of JavaScript code to be executed if a condition is true
     * if (condition) {
   //  block of code to be executed if the condition is true
 }
-    * Use the else statement to specify if a block of code to be exectued if the condition is false
+    * Use the else statement to specify if a block of code to be executed if the condition is false
 
 JavaScript Arrays - 
 * An object that holds values (of any type) 
@@ -92,7 +93,7 @@ JavaScript Algorithms -
 Variables - 
 * Allow computers to store and manipulate data in a dynamic fashion
 * All 8 data types can be stored in variables
-* Varuables can store different values at different times
+* Variables can store different values at different times
 * When JavaScript variables are declared, they have an initial value of undefined
 
 Number - 
@@ -100,12 +101,12 @@ Number -
 
 JavaScript Operators - 
 * Assignment operator (=) assigns a value to a variable and allows you to store a value
-* Can initalize a variable to an initial value in the same line as it is declared (var myVar = 0)
+* Can initialize a variable to an initial value in the same line as it is declared (var myVar = 0)
 * Addition (+), Subtraction (-), Multiplication (*), Division (/)
-* Easily increment or add one to a variable with ++ operator (i++ equals i = i + 1) and eliminates need for equal sign assignment orperator
+* Easily increment or add one to a variable with ++ operator (i++ equals i = i + 1) and eliminates need for equal sign assignment operator
 * Easily decrement or subtract one with -- operator (i-- equals i = i - 1) and eliminates the need for equal sign
-* Reaminder operator (%) gives the remainder of the divisio of two numbers
-    * Number is checked to be even or odd by seeing the remainder of the division of the nuber by 2
+* Remainder operator (%) gives the remainder of the division of two numbers
+    * Number is checked to be even or odd by seeing the remainder of the division of the number by 2
     * 17 % 2 = 1 (17 is odd)
     * 48 % 2 = (48 is even)
 
@@ -113,15 +114,24 @@ Compound Assignment -
 * Mathematical operation and assignment in one step ( += , -= , *= , /= )
 * var myVar = 1;       myVar += 5;      returns 6
 
-Global Scope & Functions - 
-* Scope refers to visibility of variables
-* Variables defined outside of a function block have global scope
-    * Can be seen everywhere in JS code
+Equality Operator - 
+* All comparison operators in JavaScript return boolean true or false
+* Equality operator (==) compares two values and returns true if equivalent or false if they are not
+* Attempts to convert both values being compared to a common type
 
-Local Scope & Functions - 
-* Variables declared within a function as well a function parameters have local scope
-    * Only visible within given function
+Strict Equality Operator - 
+* Strict equality (===) 
+* Does not perform a type conversion
+* If the values being compared have different types, they are considered unequal, and the strict equality operator will return false
 
+Inequality Operator - 
+* (!=) opposite of equality operator
+* Mean not equal and returns false when equality would return true and vice versa
+* Inequality operator will convert data types of values while comparing
+
+Strict Inequality Operator - 
+* (!==) means strictly not equal and returns false where strict equality would return true and vice versa
+* Will not convert data types
 
 
 ## Features_of_JavaScript
@@ -154,20 +164,49 @@ Split -
 * var str = string.split('') =  ['a', 'b', 'c', 'd', 'c', 'b', 'a']
 
 ## Arrays 
-Can nest arrays within arrays (nulit-dimensional array)
+Can nest arrays within arrays (mulit-dimensional array)
 
 Access array data with indexes -
 * Bracket notation that specifies a entry in the array
 
 Manipulate Array Data - 
-* Easy way to append datat to the end of an array via .push()
-    * Takes one or more parameters and pushes them ont the end of an array
+* Easy way to append data to the end of an array via .push()
+    * Takes one or more parameters and pushes them to the end of an array
 * .pop() is used to pop a value off the end of an array, removes the last element and returns that element
 * .shift() removes the first element in an array
 * .unshift() works like .push but adds element at beginning of the array
 
 ## Functions 
 Function parameters are values that are input or passed into a function when it is called known as arguments
+
+Global Scope & Functions - 
+* Scope refers to visibility of variables
+* Variables defined outside of a function block have global scope
+    * Can be seen everywhere in JS code
+
+Local Scope & Functions - 
+* Variables declared within a function as well a function parameters have local scope
+    * Only visible within given function
+
+Global vs. Local Scope - 
+* Possible to have both local and global variables with same name
+* Local variables in this instance will have precedence over global variables
+
+Returning Values - 
+* Return statements in functions send a value back out of a function
+* If function does not have return statement, when you call the function the inner code is processed but the returned value is undefined
+* Can take the return value of a function and assign it to a variable
+
+## Conditional_Logic
+
+If Statements - 
+* Used to make decisions in code
+* When condition evaluates to true, program executes statement inside curly bracket
+* When boolean condition is evaluates to false the statement inside the curly bracket evaluates to false
+if (condition is true) {
+  statement is executed
+}
+
 
 ## TypeScript
 
