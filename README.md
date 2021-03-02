@@ -6,6 +6,7 @@
 * [Features_of_JavaScript](#Features_of_JavaScript)
 * [Strings_StringMethods](#Strings_StringMethods)
 * [Arrays](#Arrays)
+* [Objects](#Objects)
 * [Functions](#Functions)
 * [Conditional_Logic](#Conditional_Logic)
 * [TypeScript](#TypeScript)
@@ -15,7 +16,6 @@
 * [big0_notation](#big0_notation)
 * [Golang](#Golang)
 * [Features_of_Golang](#Features_of_Golang)
-
 
 
 ## JavaScript
@@ -120,7 +120,7 @@ Equality Operator -
 * Attempts to convert both values being compared to a common type
 
 Strict Equality Operator - 
-* Strict equality (===) 
+* Strict equality (===) returns true or false
 * Does not perform a type conversion
 * If the values being compared have different types, they are considered unequal, and the strict equality operator will return false
 
@@ -164,6 +164,7 @@ Split -
 * var str = string.split('') =  ['a', 'b', 'c', 'd', 'c', 'b', 'a']
 
 ## Arrays 
+
 Can nest arrays within arrays (mulit-dimensional array)
 
 Access array data with indexes -
@@ -176,7 +177,19 @@ Manipulate Array Data -
 * .shift() removes the first element in an array
 * .unshift() works like .push but adds element at beginning of the array
 
+## Objects
+
+* Use indexes to access and modify data
+* Access data in objects through properties
+* Useful for storing data in a structrued way
+* Two ways to access properties of an object
+    * Dot notation 
+    * Bracket notation
+* Can update and add new data to objects through dot and bracket notation
+* Can be thought of as key/value storage 
+
 ## Functions 
+
 Function parameters are values that are input or passed into a function when it is called known as arguments
 
 Global Scope & Functions - 
@@ -209,6 +222,31 @@ if (condition is true) {
 }
 
 * With an else statement an alternate block of code can be exectued
+
+Else if - 
+* Have multiple conditions that need to be addressed, can chain if statements together with else if statements
+* Function is executed from top to bottom
+
+Switch Statements - 
+* If you have many options to choose from use a switch statement 
+* Tests a value and can have case statements which define various possible values 
+* Statements execute from the first matched case value until a break is encoutered 
+* Case values are tested wtih (===) strict equality
+* Break tells JS to stop execution, if left out it will move to the next statement 
+* Default statement should be last
+* If the break statement is omitted from a switch statement's case, case statements are executed until a break is encountered
+switch (num) {
+  case value1:
+    statement1;
+    break;
+  case value2:
+    statement2;
+    break;
+...
+  default:
+    defaultStatement;
+    break;
+}
 
 
 ## TypeScript
@@ -248,7 +286,6 @@ TypeScript object oriented supported terms -
 * JavaScript is TypeScript
 * DOM Manipulation
 * TypeScript is just JavaScript
-
 
 
 ## React
