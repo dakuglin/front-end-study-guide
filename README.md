@@ -9,6 +9,7 @@
 * [Objects](#Objects)
 * [Functions](#Functions)
 * [Conditional_Logic](#Conditional_Logic)
+* [ES6](#ES6)
 * [TypeScript](#TypeScript)
 * [Features_of_TypeScript](#Features_of_TypeScript)
 * [React](#react)
@@ -90,7 +91,7 @@ What is Scope in JavaScript -
 JavaScript Algorithms -
 * Functions that transforms certain input data structure into certain output data structure 
 
-Variables - 
+Variables (var) - 
 * Allow computers to store and manipulate data in a dynamic fashion
 * All 8 data types can be stored in variables
 * Variables can store different values at different times
@@ -247,6 +248,22 @@ switch (num) {
     defaultStatement;
     break;
 }
+
+While Loops - 
+* Runs "while" a specified condition is true and stops once that condition is no longer true
+
+For Loops - 
+* Run for a specified number of times
+* for ([initialization]; [condition]; [final-expression])
+
+## ES6 
+
+Difference between var and let - 
+* Can easily overwrite variable declarations with var keyword without an error
+* Let is available with ES6 to help with the var keyword
+    * Let only allows a variable with the same name to be declared once
+    * let keyword inside a block, statement, or expression its scope is limited to that block, statement, or expression
+
 
 
 ## TypeScript
