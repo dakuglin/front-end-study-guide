@@ -264,6 +264,9 @@ Difference between var and let -
     * Let only allows a variable with the same name to be declared once
     * let keyword inside a block, statement, or expression its scope is limited to that block, statement, or expression
 
+Const - 
+* Objects (including arrays and functions) assigned to a variable using const are still mutable
+* Prevents reassignment of the variable identifier 
 
 
 ## TypeScript
