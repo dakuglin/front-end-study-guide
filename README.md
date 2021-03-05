@@ -400,7 +400,8 @@ What is Golang (Go) -
     * Automatic memory management 
     * Means developer does not need to perform manual memory management
 * Built-in concurrency 
-* Compiles to a standalone library/binaries 
+* Compiles to a standalone library/binaries
+*  
 
 
 
