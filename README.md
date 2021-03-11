@@ -318,6 +318,15 @@ What is react -
 How does react work - 
 * React works by creating a virtual DOM
 * When state changes in a component, react identifies what has changed in the virtual DOM, next react updates the DOM with the changes 
+* React uses snapshots of its own DOM to optimize updating only specific parts of the actual DOM
+
+JSX - 
+* Syntactic extension of JavaScript, can write JS directly within JSX
+* Allows you to write HTML directly within JavaScript 
+* JSX is similar to HTML, with a few key differences 
+* JavaScript code within curly braces: { 'this is treated as JavaScript code' }
+* JSX is not valid JavaScript so code must be compiled into JavaScript 
+* Note nested JSX must return a single element (one parent element to wrap all of the other levels of nested elements)
 
 What is virtual DOM - 
 * Memory representation of the real DOM
