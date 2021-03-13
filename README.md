@@ -97,9 +97,6 @@ Variables (var) -
 * Variables can store different values at different times
 * When JavaScript variables are declared, they have an initial value of undefined
 
-Number - 
-* Number is a data type in JavaScript that represents numeric data
-
 JavaScript Operators - 
 * Assignment operator (=) assigns a value to a variable and allows you to store a value
 * Can initialize a variable to an initial value in the same line as it is declared (var myVar = 0)
