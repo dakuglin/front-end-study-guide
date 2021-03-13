@@ -106,7 +106,7 @@ JavaScript Operators -
 * Remainder operator (%) gives the remainder of the division of two numbers
     * Number is checked to be even or odd by seeing the remainder of the division of the number by 2
     * 17 % 2 = 1 (17 is odd)
-    * 48 % 2 = (48 is even)
+    * 48 % 2 = 0 (48 is even)
 
 Compound Assignment - 
 * Mathematical operation and assignment in one step ( += , -= , *= , /= )
